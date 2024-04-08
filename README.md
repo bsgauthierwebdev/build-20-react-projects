@@ -9,6 +9,11 @@
     - Project uses the useState hook
     - Information is displayed either singular selections or multiple, depending on the state of the page
 
+ 2. Random Color Generator
+    - A component which generates a random color code
+    - Component can generate both HEX and RGB color codes
+    - Component changes the background color to the randomly selected color code
+
 --------------------------------------------------------------------------------
 
 # Getting Started with Create React App
