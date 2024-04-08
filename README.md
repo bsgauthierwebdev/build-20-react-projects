@@ -1,3 +1,16 @@
+# Build 20 React Projects
+
+### 20 + 5 Simple React projects to hone and demonstrate skills
+
+#### Each project focuses on a certain area of web and software design using React
+
+ 1. Accordion
+    - A component for displaying certain information when selected. 
+    - Project uses the useState hook
+    - Information is displayed either singular selections or multiple, depending on the state of the page
+
+--------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
