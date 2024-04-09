@@ -14,6 +14,11 @@
     - Component can generate both HEX and RGB color codes
     - Component changes the background color to the randomly selected color code
 
+ 3. Star Rating
+   - A component which builds a rating system using star icons
+   - Component uses useState hook to change the rating based on hovering and clicking
+   - Star icons are highlighted when hovering and change the amount of highlighted stars when clicked
+
 --------------------------------------------------------------------------------
 
 # Getting Started with Create React App
