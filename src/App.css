@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.linebreak {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.linebreak:after {
+  content: "\00a0";  /* Prevent margin collapse */
+}

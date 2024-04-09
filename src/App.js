@@ -7,11 +7,13 @@ import StarRating from './Components/StarRating'
 const App = () => {
   return (
     <div className="App">
-      {/* Accordion Component*/}
+      <h1>Accordion Component</h1>
       <Accordion />
-      {/* Random Color Component */}
+      <hr className="linebreak" />
+      <h1>Random Color Component</h1>
       <RandomColorGenerator />
-      {/* Star Rating Component */}
+      <hr className="linebreak" />
+      <h1>Star Rating Component</h1>
       <StarRating numOfStars={10} />
     </div>
   )
