@@ -15,13 +15,13 @@
     - Component changes the background color to the randomly selected color code
 
  3. Star Rating
-   - A component which builds a rating system using star icons
-   - Component uses useState hook to change the rating based on hovering and clicking
-   - Star icons are highlighted when hovering and change the amount of highlighted stars when clicked
+    - A component which builds a rating system using star icons
+    - Component uses useState hook to change the rating based on hovering and clicking
+    - Star icons are highlighted when hovering and change the amount of highlighted stars when clicked
 
  4. Image Slider
-   - A component which maps a select number of images to the page and scrolls through them
-   - Arrow icons are used to scroll through the images. As the user scrolls, the state of the images changes based on scroll direction and images are displayed in the order they appear in the API
+    - A component which maps a select number of images to the page and scrolls through them
+    - Arrow icons are used to scroll through the images. As the user scrolls, the state of the images changes based on scroll direction and images are displayed in the order they appear in the API
 
 --------------------------------------------------------------------------------
 
