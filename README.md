@@ -24,10 +24,10 @@
     - Arrow icons are used to scroll through the images. As the user scrolls, the state of the images changes based on scroll direction and images are displayed in the order they appear in the API
 
  5. Load More Data
-   - A component which takes a fetch from an API and renders data on the screen
-   - Component only renders a set number of data
-   - Clicking the "Load More" button will render a set number of additional data on the screen until the limit has been reached
-   - *** There is currently an error in the component where the initial data is loaded twice. Functionality works for additional renders, but this error needs to be fixed before project is complete.
+    - A component which takes a fetch from an API and renders data on the screen
+    - Component only renders a set number of data
+    - Clicking the "Load More" button will render a set number of additional data on the screen until the limit has been reached
+    - ***There is currently an error in the component where the initial data is loaded twice. Functionality works for additional renders, but this error needs to be fixed before project is complete.***
 
 --------------------------------------------------------------------------------
 
