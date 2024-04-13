@@ -4,10 +4,13 @@ import Accordion from './Components/Accordion'
 import RandomColorGenerator from './Components/RandomColorGenerator'
 import StarRating from './Components/StarRating'
 import ImageSlider from './Components/ImageSlider'
+import LoadMoreData from './Components/LoadMoreButton'
 
 const App = () => {
   return (
     <div className="App">
+      <h1>Build20 React Products</h1>
+      <hr className="linebreak" />
       <h1>Accordion Component</h1>
       <Accordion />
       <hr className="linebreak" />
@@ -23,6 +26,8 @@ const App = () => {
         page = {'1'} 
         limit = {'10'} 
       />
+      <h1>Load More Data Component</h1>
+      <LoadMoreData />
     </div>
   )
 }
