@@ -28,6 +28,7 @@
     - Component only renders a set number of data
     - Clicking the "Load More" button will render a set number of additional data on the screen until the limit has been reached
     - ***There is currently an error in the component where the initial data is loaded twice. Functionality works for additional renders, but this error needs to be fixed before project is complete.***
+    - ***Error occurs because React.StrictMode calls the data twice in development mode. Removing Strict More from the index.js file fixes the issue.***
 
 --------------------------------------------------------------------------------
 
