@@ -5,13 +5,15 @@ import RandomColorGenerator from './Components/RandomColorGenerator'
 import StarRating from './Components/StarRating'
 import ImageSlider from './Components/ImageSlider'
 import LoadMoreData from './Components/LoadMoreButton'
+import TreeView from './Components/TreeView-MenuUI-RecursiveNavMenu'
+import menus from './Components/TreeView-MenuUI-RecursiveNavMenu/data'
 
 const App = () => {
   return (
     <div className="App">
       <h1>Build20 React Products</h1>
       <hr className="linebreak" />
-      <h1>Accordion Component</h1>
+      {/* <h1>Accordion Component</h1>
       <Accordion />
       <hr className="linebreak" />
       <h1>Random Color Component</h1>
@@ -27,7 +29,9 @@ const App = () => {
         limit = {'10'} 
       />
       <h1>Load More Data Component</h1>
-      <LoadMoreData />
+      <LoadMoreData /> */}
+      <h1>Tree View / Menu UI / Recursive Navigation Menu Component</h1>
+      <TreeView menus={menus} />
     </div>
   )
 }
