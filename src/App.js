@@ -13,7 +13,7 @@ const App = () => {
     <div className="App">
       <h1>Build20 React Products</h1>
       <hr className="linebreak" />
-      {/* <h1>Accordion Component</h1>
+      <h1>Accordion Component</h1>
       <Accordion />
       <hr className="linebreak" />
       <h1>Random Color Component</h1>
@@ -29,7 +29,8 @@ const App = () => {
         limit = {'10'} 
       />
       <h1>Load More Data Component</h1>
-      <LoadMoreData /> */}
+      <LoadMoreData />
+      <hr className="linebreak" />
       <h1>Tree View / Menu UI / Recursive Navigation Menu Component</h1>
       <TreeView menus={menus} />
     </div>
