@@ -35,6 +35,10 @@
     - The tree uses a data structure utilizing child components
     - The child components will only be displayed when the user selects the menu to be expanded
 
+ 7. QR Code Generator
+    - Build a component which takes a text input and generates a QR code which displays on the screen
+    - Component uses the external react-qr-code library to generate the codes.
+
 --------------------------------------------------------------------------------
 
 # Getting Started with Create React App
