@@ -7,6 +7,7 @@ import ImageSlider from './Components/ImageSlider'
 import LoadMoreData from './Components/LoadMoreButton'
 import TreeView from './Components/TreeView-MenuUI-RecursiveNavMenu'
 import menus from './Components/TreeView-MenuUI-RecursiveNavMenu/data'
+import QRCodeGenerator from './Components/QRCodeGenerator'
 
 const App = () => {
   return (
@@ -33,6 +34,9 @@ const App = () => {
       <hr className="linebreak" />
       <h1>Tree View / Menu UI / Recursive Navigation Menu Component</h1>
       <TreeView menus={menus} />
+      <hr className="linebreak" />
+      <h1>QR Code Generator</h1>
+      <QRCodeGenerator />
     </div>
   )
 }
