@@ -39,6 +39,11 @@
     - Build a component which takes a text input and generates a QR code which displays on the screen
     - Component uses the external react-qr-code library to generate the codes.
 
+ 8. Light & Dark Mode
+    - Build a component which changes the page theme between light and dark modes
+    - The component uses a custom hook to store the page theme in local storage
+    - Based on the local storage value, the page will display either light or dark mode
+
 --------------------------------------------------------------------------------
 
 # Getting Started with Create React App

@@ -8,6 +8,7 @@ import LoadMoreData from './Components/LoadMoreButton'
 import TreeView from './Components/TreeView-MenuUI-RecursiveNavMenu'
 import menus from './Components/TreeView-MenuUI-RecursiveNavMenu/data'
 import QRCodeGenerator from './Components/QRCodeGenerator'
+import LightAndDarkMode from './Components/LightAndDarkMode'
 
 const App = () => {
   return (
@@ -37,6 +38,9 @@ const App = () => {
       <hr className="linebreak" />
       <h1>QR Code Generator</h1>
       <QRCodeGenerator />
+      <hr className="linebreak" />
+      <h1>Light and Dark Mode / Theme Switch / Dark Theme</h1>
+      <LightAndDarkMode />
     </div>
   )
 }
