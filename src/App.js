@@ -10,6 +10,7 @@ import menus from './Components/TreeView-MenuUI-RecursiveNavMenu/data'
 import QRCodeGenerator from './Components/QRCodeGenerator'
 import LightAndDarkMode from './Components/LightAndDarkMode'
 import ScrollIndicator from './Components/ScrollIndicator'
+import TabTest from './Components/CustomTabs/tab-test'
 
 const App = () => {
   return (
@@ -45,6 +46,8 @@ const App = () => {
       {/* <hr className="linebreak" /> */}
       {/* <h1>Scroll Indicator Component</h1> */}
       {/* <ScrollIndicator url = {'https://dummyjson.com/products?limit=100'} /> */}
+      <hr className="linebreak" />
+      <TabTest />
     </div>
   )
 }

@@ -48,6 +48,13 @@
     - Build a component with a visual scroll indicator to determine how far down the page the user has scrolled.
     - The component uses useState to determine the length of the page and how far the user has scrolled. These figures are divided to find the percentage, which is visually represented at the top of the page.
 
+10. Custom Tabs
+    - Build a component that creates dynamic tabs on the screen
+    - The content to be displayed is passed down to the component as props
+    - The component receives tabsContent and onChange as properties
+    
+
+
 --------------------------------------------------------------------------------
 
 # Getting Started with Create React App
